@@ -1,0 +1,1 @@
+*/1 * * * * root cd /subscription-service && /usr/local/bin/node subscription-service.js >> /proc/1/fd/1 2>&1

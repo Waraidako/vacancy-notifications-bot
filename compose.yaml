@@ -1,0 +1,25 @@
+services:
+  scraper:
+    build: ./subscription-service
+    env_file:
+      - .env
+
+  bot:
+    build: ./bot
+    env_file:
+      - .env
+
+  db:
+    restart: always
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "${DB_PORT}:${DB_INTERNAL_PORT}"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

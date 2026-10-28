@@ -1,0 +1,2528 @@
+{
+  "found": 90,
+  "page": 0,
+  "pages": 1,
+  "per_page": 100,
+  "items": [
+    {
+      "id": "mock-0001",
+      "name": "Junior Go Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0001",
+      "url": "https://example.org/api/mock-vacancies/0001",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-18T06:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 1: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0002",
+      "name": "Go Backend Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0002",
+      "url": "https://example.org/api/mock-vacancies/0002",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-18T03:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 2: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0003",
+      "name": "Стажёр Go разработчик",
+      "alternate_url": "https://example.org/mock-vacancies/0003",
+      "url": "https://example.org/api/mock-vacancies/0003",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-18T00:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 3: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0004",
+      "name": "Junior Backend Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0004",
+      "url": "https://example.org/api/mock-vacancies/0004",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-17T21:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 4: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0005",
+      "name": "Backend-разработчик (Go)",
+      "alternate_url": "https://example.org/mock-vacancies/0005",
+      "url": "https://example.org/api/mock-vacancies/0005",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-17T18:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 5: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0006",
+      "name": "Frontend React Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0006",
+      "url": "https://example.org/api/mock-vacancies/0006",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-17T15:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 6: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0007",
+      "name": "Junior Frontend Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0007",
+      "url": "https://example.org/api/mock-vacancies/0007",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-17T12:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 7: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0008",
+      "name": "Фронтенд-разработчик",
+      "alternate_url": "https://example.org/mock-vacancies/0008",
+      "url": "https://example.org/api/mock-vacancies/0008",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-17T09:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 8: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0009",
+      "name": "Golang Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0009",
+      "url": "https://example.org/api/mock-vacancies/0009",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-17T06:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 9: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0010",
+      "name": "Разработчик серверных приложений",
+      "alternate_url": "https://example.org/mock-vacancies/0010",
+      "url": "https://example.org/api/mock-vacancies/0010",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-17T03:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 10: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0011",
+      "name": "Frontend TypeScript Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0011",
+      "url": "https://example.org/api/mock-vacancies/0011",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-17T00:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 11: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0012",
+      "name": "Backend Python Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0012",
+      "url": "https://example.org/api/mock-vacancies/0012",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-16T21:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 12: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0013",
+      "name": "Разработчик интерфейсов (React)",
+      "alternate_url": "https://example.org/mock-vacancies/0013",
+      "url": "https://example.org/api/mock-vacancies/0013",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-16T18:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 13: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0014",
+      "name": "Junior Go Software Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0014",
+      "url": "https://example.org/api/mock-vacancies/0014",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-16T15:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 14: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0015",
+      "name": "Junior Java Backend Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0015",
+      "url": "https://example.org/api/mock-vacancies/0015",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-16T12:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 15: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0016",
+      "name": "Go API Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0016",
+      "url": "https://example.org/api/mock-vacancies/0016",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-16T09:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 16: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0017",
+      "name": "Junior Go Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0017",
+      "url": "https://example.org/api/mock-vacancies/0017",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-16T06:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 17: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0018",
+      "name": "Go Backend Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0018",
+      "url": "https://example.org/api/mock-vacancies/0018",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-16T03:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 18: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0019",
+      "name": "Стажёр Go разработчик",
+      "alternate_url": "https://example.org/mock-vacancies/0019",
+      "url": "https://example.org/api/mock-vacancies/0019",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-16T00:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 19: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0020",
+      "name": "Junior Backend Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0020",
+      "url": "https://example.org/api/mock-vacancies/0020",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-15T21:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 20: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0021",
+      "name": "Backend-разработчик (Go)",
+      "alternate_url": "https://example.org/mock-vacancies/0021",
+      "url": "https://example.org/api/mock-vacancies/0021",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-15T18:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 21: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0022",
+      "name": "Frontend React Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0022",
+      "url": "https://example.org/api/mock-vacancies/0022",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-15T15:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 22: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0023",
+      "name": "Junior Frontend Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0023",
+      "url": "https://example.org/api/mock-vacancies/0023",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-15T12:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 23: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0024",
+      "name": "Фронтенд-разработчик",
+      "alternate_url": "https://example.org/mock-vacancies/0024",
+      "url": "https://example.org/api/mock-vacancies/0024",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-15T09:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 24: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0025",
+      "name": "Golang Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0025",
+      "url": "https://example.org/api/mock-vacancies/0025",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-15T06:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 25: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0026",
+      "name": "Разработчик серверных приложений",
+      "alternate_url": "https://example.org/mock-vacancies/0026",
+      "url": "https://example.org/api/mock-vacancies/0026",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-15T03:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 26: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0027",
+      "name": "Frontend TypeScript Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0027",
+      "url": "https://example.org/api/mock-vacancies/0027",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-15T00:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 27: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0028",
+      "name": "Backend Python Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0028",
+      "url": "https://example.org/api/mock-vacancies/0028",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-14T21:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 28: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0029",
+      "name": "Разработчик интерфейсов (React)",
+      "alternate_url": "https://example.org/mock-vacancies/0029",
+      "url": "https://example.org/api/mock-vacancies/0029",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-14T18:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 29: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0030",
+      "name": "Junior Go Software Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0030",
+      "url": "https://example.org/api/mock-vacancies/0030",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-14T15:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 30: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0031",
+      "name": "Junior Java Backend Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0031",
+      "url": "https://example.org/api/mock-vacancies/0031",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-14T12:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 31: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0032",
+      "name": "Go API Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0032",
+      "url": "https://example.org/api/mock-vacancies/0032",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-14T09:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 32: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0033",
+      "name": "Junior Go Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0033",
+      "url": "https://example.org/api/mock-vacancies/0033",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-14T06:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 33: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0034",
+      "name": "Go Backend Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0034",
+      "url": "https://example.org/api/mock-vacancies/0034",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-14T03:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 34: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0035",
+      "name": "Стажёр Go разработчик",
+      "alternate_url": "https://example.org/mock-vacancies/0035",
+      "url": "https://example.org/api/mock-vacancies/0035",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-14T00:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 35: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0036",
+      "name": "Junior Backend Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0036",
+      "url": "https://example.org/api/mock-vacancies/0036",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-13T21:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 36: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0037",
+      "name": "Backend-разработчик (Go)",
+      "alternate_url": "https://example.org/mock-vacancies/0037",
+      "url": "https://example.org/api/mock-vacancies/0037",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-13T18:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 37: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0038",
+      "name": "Frontend React Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0038",
+      "url": "https://example.org/api/mock-vacancies/0038",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-13T15:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 38: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0039",
+      "name": "Junior Frontend Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0039",
+      "url": "https://example.org/api/mock-vacancies/0039",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-13T12:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 39: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0040",
+      "name": "Фронтенд-разработчик",
+      "alternate_url": "https://example.org/mock-vacancies/0040",
+      "url": "https://example.org/api/mock-vacancies/0040",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-13T09:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 40: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0041",
+      "name": "Golang Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0041",
+      "url": "https://example.org/api/mock-vacancies/0041",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-13T06:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 41: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0042",
+      "name": "Разработчик серверных приложений",
+      "alternate_url": "https://example.org/mock-vacancies/0042",
+      "url": "https://example.org/api/mock-vacancies/0042",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-13T03:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 42: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0043",
+      "name": "Frontend TypeScript Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0043",
+      "url": "https://example.org/api/mock-vacancies/0043",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-13T00:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 43: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0044",
+      "name": "Backend Python Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0044",
+      "url": "https://example.org/api/mock-vacancies/0044",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-12T21:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 44: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0045",
+      "name": "Разработчик интерфейсов (React)",
+      "alternate_url": "https://example.org/mock-vacancies/0045",
+      "url": "https://example.org/api/mock-vacancies/0045",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-12T18:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 45: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0046",
+      "name": "Junior Go Software Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0046",
+      "url": "https://example.org/api/mock-vacancies/0046",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-12T15:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 46: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0047",
+      "name": "Junior Java Backend Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0047",
+      "url": "https://example.org/api/mock-vacancies/0047",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-12T12:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 47: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0048",
+      "name": "Go API Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0048",
+      "url": "https://example.org/api/mock-vacancies/0048",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-12T09:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 48: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0049",
+      "name": "Junior Go Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0049",
+      "url": "https://example.org/api/mock-vacancies/0049",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-12T06:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 49: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0050",
+      "name": "Go Backend Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0050",
+      "url": "https://example.org/api/mock-vacancies/0050",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-12T03:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 50: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0051",
+      "name": "Стажёр Go разработчик",
+      "alternate_url": "https://example.org/mock-vacancies/0051",
+      "url": "https://example.org/api/mock-vacancies/0051",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-12T00:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 51: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0052",
+      "name": "Junior Backend Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0052",
+      "url": "https://example.org/api/mock-vacancies/0052",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-11T21:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 52: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0053",
+      "name": "Backend-разработчик (Go)",
+      "alternate_url": "https://example.org/mock-vacancies/0053",
+      "url": "https://example.org/api/mock-vacancies/0053",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-11T18:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 53: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0054",
+      "name": "Frontend React Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0054",
+      "url": "https://example.org/api/mock-vacancies/0054",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-11T15:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 54: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0055",
+      "name": "Junior Frontend Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0055",
+      "url": "https://example.org/api/mock-vacancies/0055",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-11T12:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 55: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0056",
+      "name": "Фронтенд-разработчик",
+      "alternate_url": "https://example.org/mock-vacancies/0056",
+      "url": "https://example.org/api/mock-vacancies/0056",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-11T09:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 56: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0057",
+      "name": "Golang Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0057",
+      "url": "https://example.org/api/mock-vacancies/0057",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-11T06:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 57: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0058",
+      "name": "Разработчик серверных приложений",
+      "alternate_url": "https://example.org/mock-vacancies/0058",
+      "url": "https://example.org/api/mock-vacancies/0058",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-11T03:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 58: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0059",
+      "name": "Frontend TypeScript Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0059",
+      "url": "https://example.org/api/mock-vacancies/0059",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-11T00:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 59: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0060",
+      "name": "Backend Python Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0060",
+      "url": "https://example.org/api/mock-vacancies/0060",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-10T21:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 60: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0061",
+      "name": "Junior Go Software Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0061",
+      "url": "https://example.org/api/mock-vacancies/0061",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-ecom",
+        "name": "Ozon Marketplace"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-10T18:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 61: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0062",
+      "name": "Junior Java Backend Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0062",
+      "url": "https://example.org/api/mock-vacancies/0062",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-ecom",
+        "name": "Ozon Marketplace"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-10T15:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 62: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0063",
+      "name": "Go API Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0063",
+      "url": "https://example.org/api/mock-vacancies/0063",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-ecom",
+        "name": "Ozon Marketplace"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-10T12:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 63: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0064",
+      "name": "Junior Go Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0064",
+      "url": "https://example.org/api/mock-vacancies/0064",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-ecom",
+        "name": "Ozon Marketplace"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-10T09:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 64: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0065",
+      "name": "Go Backend Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0065",
+      "url": "https://example.org/api/mock-vacancies/0065",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-ecom",
+        "name": "Ozon Marketplace"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-10T06:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 65: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0066",
+      "name": "Стажёр Go разработчик",
+      "alternate_url": "https://example.org/mock-vacancies/0066",
+      "url": "https://example.org/api/mock-vacancies/0066",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-ecom",
+        "name": "Ozon Marketplace"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-10T03:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 66: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0067",
+      "name": "Junior Backend Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0067",
+      "url": "https://example.org/api/mock-vacancies/0067",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-ecom",
+        "name": "Ozon Marketplace"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-10T00:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 67: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0068",
+      "name": "Backend-разработчик (Go)",
+      "alternate_url": "https://example.org/mock-vacancies/0068",
+      "url": "https://example.org/api/mock-vacancies/0068",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-ecom",
+        "name": "Ozon Marketplace"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-09T21:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 68: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0069",
+      "name": "Frontend React Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0069",
+      "url": "https://example.org/api/mock-vacancies/0069",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-ecom",
+        "name": "Ozon Marketplace"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-09T18:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 69: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0070",
+      "name": "Junior Frontend Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0070",
+      "url": "https://example.org/api/mock-vacancies/0070",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-ecom",
+        "name": "Ozon Marketplace"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-09T15:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 70: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0071",
+      "name": "Фронтенд-разработчик",
+      "alternate_url": "https://example.org/mock-vacancies/0071",
+      "url": "https://example.org/api/mock-vacancies/0071",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "2",
+        "name": "Санкт-Петербург"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-09T12:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 71: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0072",
+      "name": "Golang Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0072",
+      "url": "https://example.org/api/mock-vacancies/0072",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "2",
+        "name": "Санкт-Петербург"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-09T09:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 72: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0073",
+      "name": "Разработчик серверных приложений",
+      "alternate_url": "https://example.org/mock-vacancies/0073",
+      "url": "https://example.org/api/mock-vacancies/0073",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "2",
+        "name": "Санкт-Петербург"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-09T06:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 73: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0074",
+      "name": "Frontend TypeScript Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0074",
+      "url": "https://example.org/api/mock-vacancies/0074",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "2",
+        "name": "Санкт-Петербург"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-09T03:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 74: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0075",
+      "name": "Backend Python Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0075",
+      "url": "https://example.org/api/mock-vacancies/0075",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "2",
+        "name": "Санкт-Петербург"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-09T00:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 75: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0076",
+      "name": "Разработчик интерфейсов (React)",
+      "alternate_url": "https://example.org/mock-vacancies/0076",
+      "url": "https://example.org/api/mock-vacancies/0076",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "2",
+        "name": "Санкт-Петербург"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-08T21:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 76: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0077",
+      "name": "Junior Go Software Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0077",
+      "url": "https://example.org/api/mock-vacancies/0077",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "2",
+        "name": "Санкт-Петербург"
+      },
+      "experience": {
+        "id": "between1And3",
+        "name": "От 1 года до 3 лет"
+      },
+      "published_at": "2026-10-08T18:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 77: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0078",
+      "name": "Junior Java Backend Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0078",
+      "url": "https://example.org/api/mock-vacancies/0078",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+      },
+      "published_at": "2026-10-08T15:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 78: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0079",
+      "name": "Go API Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0079",
+      "url": "https://example.org/api/mock-vacancies/0079",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+      },
+      "published_at": "2026-10-08T12:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 79: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0080",
+      "name": "Junior Go Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0080",
+      "url": "https://example.org/api/mock-vacancies/0080",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+      },
+      "published_at": "2026-10-08T09:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 80: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0081",
+      "name": "Go Backend Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0081",
+      "url": "https://example.org/api/mock-vacancies/0081",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+      },
+      "published_at": "2026-10-08T06:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 81: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0082",
+      "name": "Стажёр Go разработчик",
+      "alternate_url": "https://example.org/mock-vacancies/0082",
+      "url": "https://example.org/api/mock-vacancies/0082",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+      },
+      "published_at": "2026-10-08T03:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 82: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0083",
+      "name": "Junior Backend Developer",
+      "alternate_url": "https://example.org/mock-vacancies/0083",
+      "url": "https://example.org/api/mock-vacancies/0083",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+      },
+      "published_at": "2026-10-08T00:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 83: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0084",
+      "name": "Backend-разработчик (Go)",
+      "alternate_url": "https://example.org/mock-vacancies/0084",
+      "url": "https://example.org/api/mock-vacancies/0084",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "between3And6",
+        "name": "От 3 до 6 лет"
+      },
+      "published_at": "2026-10-07T21:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 84: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0085",
+      "name": "QA Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0085",
+      "url": "https://example.org/api/mock-vacancies/0085",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-07T18:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 85: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0086",
+      "name": "UX Designer",
+      "alternate_url": "https://example.org/mock-vacancies/0086",
+      "url": "https://example.org/api/mock-vacancies/0086",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-07T15:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 86: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0087",
+      "name": "Product Analyst",
+      "alternate_url": "https://example.org/mock-vacancies/0087",
+      "url": "https://example.org/api/mock-vacancies/0087",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-07T12:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 87: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0088",
+      "name": "Data Scientist",
+      "alternate_url": "https://example.org/mock-vacancies/0088",
+      "url": "https://example.org/api/mock-vacancies/0088",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-07T09:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 88: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0089",
+      "name": "DevOps Engineer",
+      "alternate_url": "https://example.org/mock-vacancies/0089",
+      "url": "https://example.org/api/mock-vacancies/0089",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-07T06:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 89: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    },
+    {
+      "id": "mock-0090",
+      "name": "Technical Writer",
+      "alternate_url": "https://example.org/mock-vacancies/0090",
+      "url": "https://example.org/api/mock-vacancies/0090",
+      "employer": {
+        "id": "2180",
+        "name": "Ozon"
+      },
+      "department": {
+        "id": "ozonru-2180-fintech",
+        "name": "Ozon Bank / Fintech"
+      },
+      "area": {
+        "id": "1",
+        "name": "Москва"
+      },
+      "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+      },
+      "published_at": "2026-10-07T03:00:00+03:00",
+      "snippet": {
+        "requirement": "Mock vacancy 90: familiarity with software development and teamwork.",
+        "responsibility": "Build and maintain services with the engineering team."
+      },
+      "salary": null
+    }
+  ]
+}

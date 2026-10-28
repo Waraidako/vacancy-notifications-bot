@@ -1,0 +1,14 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+
+# Go
+*.exe
+*.out
+
+# Local data
+*.db
