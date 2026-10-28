@@ -12,7 +12,14 @@ const subscriptions = await Promise.allSettled(
             file => import(path.join(subscriptionsDirectory, file))
         )
 )
+
+let allVacancies = []
+
 for (const subscription of subscriptions.filter(result => result.status === "fulfilled")) {
     const  result = await subscription.value.updateSubscription()
-    console.log(result)
+    for (const vacancy of result) {
+        allVacancies.push(vacancy);
+    }
 }
+
+console.log(allVacancies);
