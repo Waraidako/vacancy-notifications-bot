@@ -4,6 +4,10 @@ A self-hosted Telegram bot that notifies subscribers about newly available job v
 
 The project currently includes an **HH.ru-style mock source for Ozon Bank vacancies**. Its subscription-script interface is designed to accommodate additional sources without changing the Go service.
 
+[!NOTE] The bot is currently running on Telegram at "@vacancy_notifications_bot" (https://t.me/vacancy_notifications_bot).
+
+For demonstration purposes, the JavaScript subscription service is configured to check for new vacancies every minute. This accelerated schedule is intended to showcase the notification system and is not the intended production polling interval.
+
 ## Features
 
 - **Scheduled updates:** A Node.js service runs subscription scripts through cron, rather than keeping a Node process running between updates.
