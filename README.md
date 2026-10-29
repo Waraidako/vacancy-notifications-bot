@@ -18,17 +18,17 @@ The project currently includes an **HH.ru-style mock source for Ozon Bank vacanc
 
 ```text
 Node.js subscription service                 Go notification service
-┌────────────────────────────┐               ┌────────────────────────────┐
-│ cron                       │               │ gRPC server                │
-│   ↓                        │               │   ↓                        │
-│ load subscription scripts  │── gRPC ──────>│ acknowledge receipt        │
-│   ↓                        │<─ ack ────────│   ↓                        │
-│ aggregate vacancy results  │               │ process batch in goroutine │
-└────────────────────────────┘               │   ↓                        │
-                                             │ PostgreSQL vacancy diff    │
-                                             │   ↓                        │
-                                             │ notify Telegram subscribers│
-                                             └────────────────────────────┘
+┌────────────────────────────┐               ┌─────────────────────────────┐
+│ cron                       │               │ gRPC server                 │
+│   ↓                        │               │   ↓                         │
+│ load subscription scripts  │── gRPC ──────>│ acknowledge receipt         │
+│   ↓                        │<─ ack ────────│   ↓                         │
+│ aggregate vacancy results  │               │ process batch in goroutine  │
+└────────────────────────────┘               │   ↓                         │
+                                             │ PostgreSQL vacancy diff     │
+                                             │   ↓                         │
+                                             │ notify Telegram subscribers │
+                                             └─────────────────────────────┘
 ```
 
 **Receipt is not processing confirmation.** A successful `PushVacancies` acknowledgment means Go has received the batch and handed it off for processing; it does not mean database changes or Telegram notifications have completed.
