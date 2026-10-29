@@ -1,6 +1,7 @@
-package telegram_bot
+package telegrambot
 
 import (
+	"context"
 	"fmt"
 	"log/slog"
 	"os"
@@ -10,22 +11,28 @@ import (
 
 var bot *tgbotapi.BotAPI = nil
 
+var logPrefix = "[BOT]  "
+
+func logMessage(level slog.Level, message string, args ...any) {
+	slog.Log(context.Background(), level, logPrefix+message, args...)
+}
+
 func InitBot() error {
 	botToken := os.Getenv("TELEGRAM_BOT_TOKEN")
 	if botToken == "" {
 		return fmt.Errorf("TELEGRAM_BOT_TOKEN environment variable is required")
 	}
-	slog.Info("Imported bot key")
+	logMessage(slog.LevelInfo, "Imported bot key")
 
 	botToInit, err := tgbotapi.NewBotAPI(botToken)
 	if err != nil {
 		return fmt.Errorf("failed to create bot: %v", err)
 	}
-	slog.Info("Bot created")
+	logMessage(slog.LevelInfo, "Bot created")
 
 	botToInit.Debug = false
-	slog.Info(fmt.Sprintf("Authorized on account %s", botToInit.Self.UserName))
-	slog.Info("Bot is running")
+	logMessage(slog.LevelInfo, fmt.Sprintf("Authorized on account %s", botToInit.Self.UserName))
+	logMessage(slog.LevelInfo, "Bot is running")
 	bot = botToInit
 
 	return nil
@@ -37,7 +44,7 @@ func ListenToUpdates() error {
 
 	updates := bot.GetUpdatesChan(updateConfig)
 
-	slog.Info("Listening for updates...")
+	logMessage(slog.LevelInfo, "Listening for updates...")
 
 	for update := range updates {
 		if update.Message == nil {
@@ -50,20 +57,20 @@ func ListenToUpdates() error {
 				msg := tgbotapi.NewMessage(update.Message.Chat.ID, "The bot works yay")
 
 				if _, err := bot.Send(msg); err != nil {
-					slog.Error("Failed to send message: %v", err)
+					logMessage(slog.LevelError, "Failed to send message", "error", err)
 				}
 			default:
 				msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Command unknown")
 				_, err := bot.Send(msg)
 				if err != nil {
-					slog.Error("Failed to send message: %v", err)
+					logMessage(slog.LevelError, "Failed to send message", "error", err)
 				}
 			}
 		} else {
 			msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Non-command messages are not supported")
 			_, err := bot.Send(msg)
 			if err != nil {
-				slog.Error("Failed to send message: %v", err)
+				logMessage(slog.LevelError, "Failed to send message", "error", err)
 			}
 		}
 	}
