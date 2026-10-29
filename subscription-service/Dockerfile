@@ -3,17 +3,17 @@ LABEL authors="waraidako"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     cron \
-    ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /subscription-service/src
+WORKDIR /subscription-service
 
-COPY package*.json ./
+COPY subscription-service/package*.json ./
 RUN npm ci
 
-COPY . .
+COPY subscription-service/ .
+copy proto/ /proto/
 
-COPY crontab /etc/cron.d/scraper
+COPY subscription-service/crontab /etc/cron.d/subscription-service
 RUN chmod 0644 /etc/cron.d/subscription-service
 
 CMD ["cron", "-f"]

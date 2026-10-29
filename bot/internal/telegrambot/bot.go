@@ -2,9 +2,15 @@ package telegrambot
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
+	"html"
 	"log/slog"
 	"os"
+	"strconv"
+	"strings"
+	"vacancy_notifications_bot/internal/model"
+	"vacancy_notifications_bot/internal/storage"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
@@ -47,18 +53,68 @@ func ListenToUpdates() error {
 	logMessage(slog.LevelInfo, "Listening for updates...")
 
 	for update := range updates {
-		if update.Message == nil {
-			continue
+		switch update.Message.Text {
+		case "✅ Subscribe":
+			_, err := bot.Request(tgbotapi.NewDeleteMessage(
+				update.Message.Chat.ID,
+				update.Message.MessageID,
+			))
+			if err != nil {
+				logMessage(slog.LevelError, "Failed to add delete message", "error", err)
+			}
+			userID := update.Message.From.ID
+			err = storage.AddSubscriber(userID)
+			msg := tgbotapi.NewMessage(update.Message.Chat.ID, "")
+			if err != nil {
+				logMessage(slog.LevelError, "Failed to add subscriber", "error", err)
+				msg.Text = "Failed to subscribe"
+			}
+			msg.ReplyMarkup = SubscriptionKeyboard(true)
+			msg.Text = fmt.Sprintf("Subscribed!")
+			if _, err := bot.Send(msg); err != nil {
+				logMessage(slog.LevelError, "Failed to send message", "error", err)
+			}
+
+		case "❌ Unsubscribe":
+			_, err := bot.Request(tgbotapi.NewDeleteMessage(
+				update.Message.Chat.ID,
+				update.Message.MessageID,
+			))
+			if err != nil {
+				logMessage(slog.LevelError, "Failed to add delete message", "error", err)
+			}
+			userID := update.Message.From.ID
+			err = storage.DeleteSubscriber(userID)
+			msg := tgbotapi.NewMessage(update.Message.Chat.ID, "")
+			if err != nil {
+				logMessage(slog.LevelError, "Failed to delete subscriber", "error", err)
+				msg.Text = "Failed to unsubscribe"
+			}
+			msg.ReplyMarkup = SubscriptionKeyboard(false)
+			msg.Text = fmt.Sprintf("Unsubscribed!")
+			if _, err := bot.Send(msg); err != nil {
+				logMessage(slog.LevelError, "Failed to send message", "error", err)
+			}
 		}
 
 		if update.Message.IsCommand() {
 			switch update.Message.Command() {
 			case "start":
-				msg := tgbotapi.NewMessage(update.Message.Chat.ID, "The bot works yay")
+				userID := update.Message.From.ID
+				subscribed, err := storage.IsSubscribed(userID)
+				if err != nil {
+					logMessage(slog.LevelError, "Failed to check subscription", "error", err)
+				}
+
+				msg := tgbotapi.NewMessage(update.Message.Chat.ID, "👋 **Welcome to Vacancy Notifications!**\n\nGet notified whenever new job vacancies become available.\n\nUse the button below to subscribe or unsubscribe from updates at any time.")
+				msg.ParseMode = tgbotapi.ModeMarkdown
+
+				msg.ReplyMarkup = SubscriptionKeyboard(subscribed)
 
 				if _, err := bot.Send(msg); err != nil {
 					logMessage(slog.LevelError, "Failed to send message", "error", err)
 				}
+
 			default:
 				msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Command unknown")
 				_, err := bot.Send(msg)
@@ -66,13 +122,70 @@ func ListenToUpdates() error {
 					logMessage(slog.LevelError, "Failed to send message", "error", err)
 				}
 			}
-		} else {
-			msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Non-command messages are not supported")
-			_, err := bot.Send(msg)
-			if err != nil {
-				logMessage(slog.LevelError, "Failed to send message", "error", err)
-			}
 		}
 	}
 	return nil
+}
+
+func constructVacancyLayout(vacancy model.Vacancy) string {
+	return fmt.Sprintf(`<p><b>%s</b><br>
+Experience: %s<br>
+<a href="%s">Link to vacancy</a></p>`,
+		html.EscapeString(vacancy.Title),
+		html.EscapeString(vacancy.Experience),
+		html.EscapeString(vacancy.URL),
+	)
+}
+
+func sendRichMessage(chatID int64, messageText string) error {
+	richMessage, err := json.Marshal(map[string]string{
+		"html": messageText,
+	})
+	if err != nil {
+		return err
+	}
+
+	_, err = bot.MakeRequest("sendRichMessage", tgbotapi.Params{
+		"chat_id":      strconv.FormatInt(chatID, 10),
+		"rich_message": string(richMessage),
+	})
+
+	return err
+}
+
+func NotifySubscribers(addedVacancies []model.Vacancy) error {
+	subscribers, err := storage.GetSubscribers()
+	if err != nil {
+		return fmt.Errorf("failed to get subscribers: %w", err)
+	}
+
+	formattedVacancies := make([]string, 0, len(addedVacancies))
+	for _, vacancy := range addedVacancies {
+		formattedVacancies = append(formattedVacancies, constructVacancyLayout(vacancy))
+	}
+
+	messageText := "<p><b>New vacancies:</b></p>" +
+		strings.Join(formattedVacancies, "<hr/>")
+
+	for _, subscriber := range subscribers {
+		if err := sendRichMessage(subscriber, messageText); err != nil {
+			slog.Error(fmt.Sprintf("Failed to send update to %d: %v", subscriber, err))
+		}
+	}
+
+	return nil
+}
+
+func SubscriptionKeyboard(subscribed bool) tgbotapi.ReplyKeyboardMarkup {
+	label := "✅ Subscribe"
+
+	if subscribed {
+		label = "❌ Unsubscribe"
+	}
+
+	return tgbotapi.NewReplyKeyboard(
+		tgbotapi.NewKeyboardButtonRow(
+			tgbotapi.NewKeyboardButton(label),
+		),
+	)
 }

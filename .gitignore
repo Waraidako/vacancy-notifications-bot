@@ -11,4 +11,7 @@ node_modules/
 *.out
 
 # Local data
-*.db
+*.database
+
+# Project config
+.idea

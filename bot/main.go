@@ -19,6 +19,11 @@ func main() {
 		os.Exit(1)
 	}
 
+	if err = storage.InitDB(); err != nil {
+		slog.Error(fmt.Sprintf("Error initializing DB: %v", err))
+		os.Exit(1)
+	}
+
 	err = telegrambot.InitBot()
 	if err != nil {
 		slog.Error(fmt.Sprintf("Error initializing bot: %v", err))
@@ -32,7 +37,7 @@ func main() {
 	}()
 
 	go func() {
-		if err := grpcserver.StartServer(); err != nil {
+		if err := grpcserver.StartServer(db); err != nil {
 			errorChannel <- fmt.Errorf("grpc server error: %w", err)
 		}
 	}()

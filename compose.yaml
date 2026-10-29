@@ -1,13 +1,29 @@
 services:
-  scraper:
-    build: ./subscription-service
+  subscription-service:
+    build:
+      context: .
+      dockerfile: subscription-service/Dockerfile
     env_file:
       - .env
+    depends_on:
+      bot:
+        condition: service_healthy
 
   bot:
     build: ./bot
     env_file:
       - .env
+    environment:
+      DATABASE_URL: "postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:${DB_INTERNAL_PORT}/${POSTGRES_DB}?sslmode=disable"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: [ "CMD-SHELL", "nc -z 127.0.0.1 $${BOT_GRPC_PORT:-50051}" ]
+      interval: 3s
+      timeout: 2s
+      retries: 10
+
 
   db:
     restart: always
@@ -20,6 +36,11 @@ services:
       - "${DB_PORT}:${DB_INTERNAL_PORT}"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
 
 volumes:
   postgres_data:
