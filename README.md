@@ -20,20 +20,8 @@ The project currently includes an **HH.ru-style mock source for Ozon Bank vacanc
 
 ## Architecture
 
-```text
-Node.js subscription service                 Go notification service
-┌────────────────────────────┐               ┌─────────────────────────────┐
-│ cron                       │               │ gRPC server                 │
-│   ↓                        │               │   ↓                         │
-│ load subscription scripts  │── gRPC ──────>│ acknowledge receipt         │
-│   ↓                        │<─ ack ────────│   ↓                         │
-│ aggregate vacancy results  │               │ process batch in goroutine  │
-└────────────────────────────┘               │   ↓                         │
-                                             │ PostgreSQL vacancy diff     │
-                                             │   ↓                         │
-                                             │ notify Telegram subscribers │
-                                             └─────────────────────────────┘
-```
+<img width="2266" height="954" alt="image" src="https://github.com/user-attachments/assets/1fa25ac9-91f4-44bf-81af-e77c5a92a662" />
+
 
 **Receipt is not processing confirmation.** A successful `PushVacancies` acknowledgment means Go has received the batch and handed it off for processing; it does not mean database changes or Telegram notifications have completed.
 
