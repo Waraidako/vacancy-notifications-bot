@@ -9,6 +9,8 @@ node_modules/
 # Go
 *.exe
 *.out
+bot
+vacancy-notifications-bot
 
 # Local data
 *.database
