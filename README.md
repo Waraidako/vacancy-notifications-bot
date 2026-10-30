@@ -50,8 +50,8 @@ Vacancies are compared using their **URLs**, not source-specific IDs. This allow
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Waraidako/vacanacy-notifications-bot.git
-cd vacanacy-notifications-bot
+git clone https://github.com/Waraidako/vacancy-notifications-bot.git
+cd vacancy-notifications-bot
 ```
 
 ### 2. Configure environment variables
