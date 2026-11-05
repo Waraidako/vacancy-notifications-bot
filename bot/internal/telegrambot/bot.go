@@ -154,6 +154,10 @@ func sendRichMessage(chatID int64, messageText string) error {
 }
 
 func NotifySubscribers(addedVacancies []model.Vacancy) error {
+	if len(addedVacancies) == 0 {
+		return nil
+	}
+
 	subscribers, err := storage.GetSubscribers()
 	if err != nil {
 		return fmt.Errorf("failed to get subscribers: %w", err)
